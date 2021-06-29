@@ -1,0 +1,79 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li{
+    float: left;
+}
+
+.about{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #fff;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a:hover{
+    background-color: green;
+}
+
+.card{
+    position: relative;
+    background-image: linear-gradient( to bottom right, #A1C4FD, #ffffff) ;
+    padding: 14px;
+    padding-top: 15px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.content{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.image{
+    float: left;
+    width: 210px;
+    height: 285px;
+    margin: 15px 25px 20px 0px;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.slider-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.p-text{
+    width: 75%;
+    text-align: justify;
+    margin-top: 15px;
+    column-count: 4;
+    column-rule: 1px solid #333;
+    column-gap: 25px;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
